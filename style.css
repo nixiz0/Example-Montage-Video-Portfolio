@@ -771,7 +771,7 @@ body {
 
 .background--custom {
     width: 100vw;
-    height: 100%;
+    height: 80%;
     position: absolute;
     overflow: hidden;
     z-index: -2;
@@ -878,8 +878,8 @@ body {
     }
 
 .background--custom {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 90%;
   }
   canvas#canvas {
     width: 100%;
@@ -939,7 +939,7 @@ body {
 
   .background--custom {
     width: 100%;
-    height: 100%;
+    height: 80%;
   }
   canvas#canvas {
     width: 100%;
@@ -1024,7 +1024,7 @@ footer {
     
         footer img {
             padding: 0.7em;
-            width: 5em;
+            width: 4em;
             height: auto;
         }
 }
