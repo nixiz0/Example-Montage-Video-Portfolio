@@ -131,6 +131,9 @@ body {
     }
 
     .sous_btn_projects {
+        box-shadow: 0px 0px 31px -20px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 31px -20px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 31px -20px rgba(0,0,0,0.75);
         min-width: 4em;
         height: 3em;
         color: #fff;
@@ -159,6 +162,9 @@ body {
     }
 
         .img_containers img {
+            box-shadow: 11px 6px 18px -17px rgba(0,0,0,0.9);
+            -webkit-box-shadow: 11px 6px 18px -17px rgba(0,0,0,0.9);
+            -moz-box-shadow: 11px 6px 18px -17px rgba(0,0,0,0.9);
             border-radius: 5%;
             width: 40em;
             height: auto;
