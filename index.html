@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animation.css">
+    <link rel="shortcut icon" href="./ressources/icon.png" type="image/x-icon">
+    <title>Portfolio Initium</title>
+</head>
+<body>
+    
+    <nav class="opacityEffectLow">
+        <div class="main_nav">
+            <h2> initium<span style="color: gray;">lumen</span> </h2>
+            <ul class="sous_nav">
+                <li><a href="#projets"> Projets </a></li>
+                <li><a href="#competences"> Compétences </a></li>
+                <li><a href="#contact"> Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="containers parent">
+        <div class="txt_containers fadeInLeft">
+            <h1> Hey ! Je suis Initium </h1>
+            <h2> Monteur Vidéo Professionnel </h2>
+            <p> J'ai su développer mes compétences grâce à mon expérience 
+                sur les réseaux
+            </p>
+            
+            <div class="btn_projects">
+                <a href="https://www.youtube.com/watch?v=8WrISCReVtM&list=PL0AcJq6MCzvPB4SKZPNRrCG7T705pLfPl&ab_channel=HeyInitium">
+                    <button type="button" class="sous_btn_projects">Voir mes projets</button>
+                </a>
+            </div>
+        </div>
+        <div class="img_containers fadeInUp">
+            <img src="./ressources/montage_video.jpg" alt="Montage vidéo illustration">
+            <div class="img_absolu1 fadeInUp">
+                <img src="./ressources/camera_illu.png" alt="Caméra vidéo">
+            </div>
+            <div class="img_absolu2 fadeInUp">
+                <img src="./ressources/montage_video2.png" alt="Caméra vidéo">
+            </div>
+        </div>
+    </div>
+
+    <div id="projets" class="main_projects">
+        <div class="txt_projects opacityEffectLow">
+            <h2> | MES PROJETS | </h2>
+        </div>
+        <div class="img_projects">
+            <div class="sous_img_projects fadeInUpLow">
+                <a href="https://www.youtube.com/watch?v=zmqBYQ6iyks&ab_channel=HeyInitium" target="_blank"><img src="./ressources//minia1.jpg" alt="miniature youtube exemple"></a>
+                <a href="https://www.youtube.com/watch?v=x5jjx2tO-Kg&t=171s&ab_channel=HeyInitium" target="_blank"><img src="./ressources//minia2.jpg" alt="miniature youtube exemple"></a>
+                <a href="https://www.youtube.com/watch?v=XfaUSHYQkwE&ab_channel=HeyInitium" target="_blank"><img src="./ressources//minia3.jpg" alt="miniature youtube exemple"></a>
+            </div>
+            <div class="sous_img_projects fadeInUpLow">
+                <a href="https://www.youtube.com/watch?v=Oz2jcEkLYmU&t=209s&ab_channel=HeyInitium" target="_blank"><img src="./ressources//minia4.jpg" alt="miniature youtube exemple"></a>
+                <a href="https://www.youtube.com/watch?v=f-T4dfGJAds&t=358s&ab_channel=HeyInitium" target="_blank"><img src="./ressources//minia5.jpg" alt="miniature youtube exemple"></a>
+                <a href="https://www.youtube.com/watch?v=n9t264SL9Ao&t=171s&ab_channel=HeyInitium" target="_blank"><img src="./ressources//minia6.jpg" alt="miniature youtube exemple"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="competences">
+        <div class="all_competence">
+            <div class="img_competence">
+                <img class="montage_ecran_illu" src="./ressources/premierepro_logo.png">
+                <img class="montage_ecran_illu" src="./ressources/photoshop_logo.png">
+                <img class="montage_ecran_illu" src="./ressources/aftereffect_logo.png">
+            </div>
+            <div class="competence_container">
+                <div>
+                    <div>
+                        <h4 class="competence"> MES COMPÉTENCES </h4>
+                    </div>
+                    <div>
+                        <h5 class="competence_txt"> Compétences Techniques sur les logiciels </h5>
+                    </div>
+                    <p class="title_container"> Première Pro </p>
+                    <div class="progressbar-wrapper">
+                        <div title="downloaded" class="progressbar premiere">85%</div>
+                    </div>
+               
+                    <p class="title_container"> Photoshop </p>
+                    <div class="progressbar-wrapper">
+                        <div title="downloading" class="progressbar photoshop">80%</div>
+                    </div>
+
+                    <p class="title_container"> AfterEffect </p>
+                    <div class="progressbar-wrapper">
+                        <div title="down-load" class="progressbar aftereffect">70%</div>
+                    </div>
+                </div>
+                <div class="txt_competence">
+                    <p>
+                        Je maîtrise très bien première pro, j'ai les <i> bases classiques</i> du montage vidéo, 
+                        avec les <b>zooms</b>, <b>cuts</b>, <b>rajout de musiques d'ambiance</b> et <b>sonores</b>.
+                        <br> <br>
+                        Aussi, je sais faire du <b>motion tracking</b> par masque pour mettre des <i><span style="text-decoration:underline">effets</span></i>.
+                        <br> <br>
+                        Pour Photoshop, je fais beaucoup de <b>retouche </b>photo et <b>artistique</b> sur mon <a style="color:rgb(2, 150, 213); text-decoration: none;" href="https://www.instagram.com/real_initium/" target="_blank"> <b> instagram</b></a> notamment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_contact" id="contact">
+        <div class="background--custom">
+            <canvas id="canvas"> 
+        </div>
+        <div class="txt_form" id="form_contact">
+            <div class="bottom_form"></div>
+            <div class="title_form">
+                <h3>Formulaire de contact</h3>
+            </div>
+            <!-- "data-netlify="true"" for have a form detection in Netlify -->
+            <form name="myForm" onsubmit="return validateForm()" method="post" data-netlify="true">
+               <table class="form-style">
+                  <tr>
+                     <td>
+                        <label>
+                           Votre nom <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <input type="text" name="name" class="long"/>
+                        <span class="error" id="errorname"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label>
+                           Votre adresse e-mail <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <input type="email" name="email" class="long"/>
+                        <span class="error" id="erroremail"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label>
+                           Message <span class="required">*</span>
+                        </label>
+                     </td>
+                     <td>
+                        <textarea name="message" class="long field-textarea"></textarea>
+                        <span class="error" id="errormsg"></span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>
+                        <input type="submit" value="Envoyer">      
+                        <input type="reset" value="Réinitialiser"> 
+                     </td>
+                  </tr>
+               </table>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <a href="https://www.linkedin.com/in/julian-grimler-a543a0250/" target="_blank"><img src="./ressources/linkedin_logo.png" alt="Linkedin logo"></a>
+        <a href="https://www.instagram.com/real_initium/" target="_blank"><img src="./ressources/insta_logo.png" alt="Instagram logo"></a>
+        <a href="https://twitter.com/home" target="_blank"><img src="./ressources/twitter_logo.png" alt="Twitter logo"></a>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+<script src="./valide_form.js"></script>
+<script src="./animations_effect.js"></script>
+<script>
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas");
+</script>
+
+</body>
+</html>
