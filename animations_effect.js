@@ -6,6 +6,7 @@ const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('slideInRight');
+      observer.unobserve(entry.target);
     } else {
       entry.target.classList.remove('slideInRight');
     }
@@ -13,19 +14,21 @@ const observer = new IntersectionObserver((entries, observer) => {
 });
 
 const observerFadeleft = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('fadeInLeft');
-      } else {
-        entry.target.classList.remove('fadeInLeft');
-      }
-    });
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('fadeInLeft');
+      observer.unobserve(entry.target);
+    } else {
+      entry.target.classList.remove('fadeInLeft');
+    }
   });
+});
 
 const observerfadeInUp = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('opacityEffect');
+      observer.unobserve(entry.target);
     } else {
       entry.target.classList.remove('opacityEffect');
     }
